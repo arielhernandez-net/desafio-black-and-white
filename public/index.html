@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black and White</title>
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Black and White</h1>
+    <form id="imagenForm" action="/resultado" method="post">
+      <div class="form-group">
+        <label for="imageUrl">URL de la imagen:</label>
+        <input type="text" id="imageUrl" name="imageUrl" class="form-control" placeholder="Ingresa la url de la imagen" required>
+      </div>
+      <button type="submit" class="btn btn-primary mt-2 ">Procesar</button>
+    </form>
+  </div>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
